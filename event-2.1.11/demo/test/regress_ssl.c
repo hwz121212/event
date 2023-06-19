@@ -169,7 +169,7 @@ get_ssl_ctx(void)
 {
 	if (the_ssl_ctx)
 		return the_ssl_ctx;
-	the_ssl_ctx = SSL_CTX_new(SSLv23_method());
+	the_ssl_ctx = SSL_CTX_new(TLS_method());
 	if (!the_ssl_ctx)
 		return NULL;
 	if (disable_tls_11_and_12) {

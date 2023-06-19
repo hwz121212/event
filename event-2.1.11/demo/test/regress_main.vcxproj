@@ -95,7 +95,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libevent.lib;ws2_32.lib;libgetopt.lib;libeay32.lib;libssleay32.lib;libzlib.lib;Advapi32.lib;Shell32.lib;User32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libevent.lib;ws2_32.lib;libgetopt.lib;libopenssl.lib;libzlib.lib;Advapi32.lib;Shell32.lib;User32.lib</AdditionalDependencies>
       <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -117,7 +117,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libevent.lib;ws2_32.lib;libgetopt.lib;libeay32.lib;libssleay32.lib;libzlib.lib;Advapi32.lib;Shell32.lib;User32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libevent.lib;ws2_32.lib;libgetopt.lib;libopenssl.lib;libzlib.lib;Advapi32.lib;Shell32.lib;User32.lib</AdditionalDependencies>
       <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
